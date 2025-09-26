@@ -28,9 +28,9 @@ const Card = ({ issue, ind, data, setData }) => {
           alt={issue.requestedBy}
           title={issue.requestedBy}
         />
-        <h2 className="font-semibold text-lg">{issue.requestedBy}</h2>
+        <h2 className="font-semibold   text-lg">{issue.requestedBy}</h2>
       </div>
-      <div className="flex justify-between">
+      <div className="flex justify-between my-2">
         <h2 className="font-bold text-[26px]">{issue.subject}</h2>
         <div>
           <span
