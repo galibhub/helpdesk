@@ -17,7 +17,7 @@ const Card = ({ issue, ind, data, setData }) => {
 
   return (
     <div
-      key={issue.id || Math.random()}
+      key={issue.id }
       className="shadow-md rounded-md cursor-pointer bg-slate-100 p-5 "
       onClick={() => handleClick()}
     >
